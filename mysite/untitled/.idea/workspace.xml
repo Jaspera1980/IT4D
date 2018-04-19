@@ -16,7 +16,11 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="Test.py" pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$USER_HOME$/anaconda3/envs/virt_django/Test.py">
+=======
+        <entry file="file://$PROJECT_DIR$/Test.py">
+>>>>>>> 6052c06790d1ecac77c1a0f3711056378917c2ea
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -25,6 +29,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../polls/views.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -64,11 +69,19 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="845">
               <caret line="108" column="0" lean-forward="true" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+=======
+      <file leaf-file-name="Test.py" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/anaconda3/envs/virt_django/Test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 6052c06790d1ecac77c1a0f3711056378917c2ea
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../polls/tests.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -81,6 +94,8 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> 6052c06790d1ecac77c1a0f3711056378917c2ea
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -94,6 +109,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Test.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/../polls/views.py" />
         <option value="$PROJECT_DIR$/../polls/urls.py" />
         <option value="$PROJECT_DIR$/../mysite/urls.py" />
@@ -101,6 +117,8 @@
         <option value="$PROJECT_DIR$/../mysite/animals.py" />
         <option value="$PROJECT_DIR$/../mysite/test_1.py" />
         <option value="$PROJECT_DIR$/../polls/tests.py" />
+=======
+>>>>>>> 6052c06790d1ecac77c1a0f3711056378917c2ea
       </list>
     </option>
   </component>
@@ -111,10 +129,17 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="2207" />
     <option name="y" value="52" />
     <option name="width" value="1205" />
     <option name="height" value="1388" />
+=======
+    <option name="x" value="871" />
+    <option name="y" value="105" />
+    <option name="width" value="1049" />
+    <option name="height" value="1000" />
+>>>>>>> 6052c06790d1ecac77c1a0f3711056378917c2ea
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -151,12 +176,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../polls" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/../polls" />
       <recent name="$PROJECT_DIR$/../mysite" />
+=======
+    <property name="last_opened_file_path" value="$USER_HOME$/anaconda3/envs/virt_django" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+>>>>>>> 6052c06790d1ecac77c1a0f3711056378917c2ea
       <recent name="$USER_HOME$/anaconda3/envs/virt_django" />
     </key>
   </component>
@@ -174,10 +206,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="2207" y="52" width="1205" height="1388" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21742739" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+    <frame x="871" y="105" width="1049" height="1000" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24976167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 6052c06790d1ecac77c1a0f3711056378917c2ea
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -204,6 +243,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
+<<<<<<< HEAD
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -213,6 +253,9 @@
       </breakpoints>
       <option name="time" value="2" />
     </breakpoint-manager>
+=======
+    <breakpoint-manager />
+>>>>>>> 6052c06790d1ecac77c1a0f3711056378917c2ea
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -224,6 +267,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/../polls/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -260,6 +304,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 6052c06790d1ecac77c1a0f3711056378917c2ea
     <entry file="file://$USER_HOME$/anaconda3/envs/virt_django/Test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -268,6 +314,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/../mysite/test_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -294,5 +341,7 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 6052c06790d1ecac77c1a0f3711056378917c2ea
   </component>
 </project>
