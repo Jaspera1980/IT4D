@@ -31,14 +31,14 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'polls.apps.PollsConfig',
-#    'AniReg.apps.AniregConfig',
+    'AniReg.apps.AniregConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'AniReg',
+#    'AniReg',
 ]
 
 MIDDLEWARE = [
