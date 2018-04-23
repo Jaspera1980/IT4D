@@ -22,7 +22,7 @@ class AniRegForm(models.Model):
     treatment = models.TextField()
     registration_date = models.DateTimeField(default=timezone.now)
     treatment_date = models.DateTimeField(blank=True, null=True)
-    comments = models.TextField()
+    comments = models.TextField(default=' ')
 
     def treatment(self):
         self.treatment_date = timezone.now()
