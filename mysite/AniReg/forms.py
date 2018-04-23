@@ -1,9 +1,7 @@
 from django import forms
+from .models import AniRegForm
 
-#from .models import Post
-
-
-#class PostForm(forms.ModelForm):
-#    class Meta:
-#        model = Post
-#        fields = ('title', 'text')
+class webform(forms.ModelForm):
+    class Meta:
+        model = AniRegForm
+        fields = ('treatment_1', 'comments')

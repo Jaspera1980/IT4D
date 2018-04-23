@@ -1,7 +1,10 @@
+{% load staticfiles %}
 <html>
     <head>
         <title>Animal Disease Registration</title>
+        <link rel="stylesheet" href="{% static 'css/AniReg.css' %}">
     </head>
+
     <body>
         <div>
             <h1>Animal Disease Registration Website</h1>
@@ -14,5 +17,28 @@
             <p>Supported animals:</p>
             <ul><li>Chickens</li><li>Fowls</li><li>Ducks</li><li>Turkeys</li></ul>
         </div>
+
+        {% for post in posts %}
+            <div>
+                <p>registration date: {{post.registration_date}}</p>
+                <p>2: {{post.animale_type}}</p>
+                <p>3: {{post.disease_type }}</p>
+                <p>4: {{post.treatment_1 }}</p>
+                <p>5: {{post.treatment_date }}</p>
+                <p>5: {{post.comments }}</p>
+            </div>
+        {% endfor %}
+
+
+
     </body>
+
+    <form action="/your-name/" method="post">
+        <label for="your_name">Type of Animal: </label>
+        <input id="your_name" type="text" name="your_name" value="{{ current_name }}">
+        <input type="submit" value="OK">
+    </form>
 </html>
+
+
+
