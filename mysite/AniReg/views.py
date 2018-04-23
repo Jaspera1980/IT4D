@@ -14,3 +14,7 @@ def AniRegFormView(request):
     return render(request, 'AniReg/AniRegForm.html', {})
 
 
+from .forms import webform
+def form_new(request):
+    form = webform()
+    return render(request, 'AniReg/web_form.html')
