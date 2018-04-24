@@ -1,7 +1,8 @@
-from django import forms
+from django.forms import ModelForm
 from .models import AniRegForm
 
-class webform(forms.ModelForm):
+class webform(ModelForm):
     class Meta:
         model = AniRegForm
-        fields = ('treatment_1', 'comments')
+        exclude = ['veterinarian']
+

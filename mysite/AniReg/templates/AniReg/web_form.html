@@ -1,7 +1,10 @@
-{% block content %}
-    <h1>New Registration</h1>
-    <form method="POST" class="post-form">{% csrf_token %}
-        {{ form.as_p }}
-        <button type="submit" class="save btn btn-default">Save</button>
-    </form>
-{% endblock %}
+<h1>New Disease Registration</h1>
+<form method="post" action="">
+    {% csrf_token %}
+    <ul>
+    {{ form.as_ul }}
+    </ul>
+    <button type="submit" class="save btn btn-default">Registrate</button>
+</form>
+
+

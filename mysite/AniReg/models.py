@@ -33,6 +33,3 @@ class AniRegForm(models.Model):
     def __str__(self):
         return self.animale_type + self.disease_type
 
-
-
-
