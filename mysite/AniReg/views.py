@@ -15,6 +15,22 @@ def AniRegFormView(request):
 
 
 from .forms import webform
+
 def form_new(request):
-    form = webform()
+    if request.method == "POST":
+        form = webform(request.POST)
+        if form.is_valid():
+            post = form.save(commit=False)
+            post.veterinarian = request.user
+            post.registration_date = timezone.now()
+            post.treatment_date = timezone.now()
+            post.save()
+    else:
+        form = webform()
+
     return render(request, 'AniReg/web_form.html', {'form': form})
+
+
+#def form_new(request):
+#    form = webform()
+#    return render(request, 'AniReg/web_form.html', {'form': form})

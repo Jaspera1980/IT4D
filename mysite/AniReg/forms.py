@@ -4,5 +4,5 @@ from .models import AniRegForm
 class webform(ModelForm):
     class Meta:
         model = AniRegForm
-        exclude = ['veterinarian']
+        exclude = ['registration_date', 'veterinarian', 'treatment_date']
 
